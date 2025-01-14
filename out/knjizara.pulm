@@ -1,0 +1,68 @@
+@startuml
+
+' Definisanje apstraktne klase Book
+abstract class Book {
+    - title: str
+    - author: str
+    - price: float
+    - quantity: int
+    + get_details(): str
+}
+
+' Podklase koje nasleđuju Book klasu
+class Textbook {
+    - subject: str
+    - academic_level: str
+    + get_details(): str
+}
+
+class PictureBook {
+    - illustrator: str
+    - recommended_age: int
+    + get_details(): str
+}
+
+class Novel {
+    - genre: str
+    - is_bestseller: bool
+    + get_details(): str
+}
+
+' Ostale klase
+class Inventory {
+    - books: List[Book]
+    + add_book(book: Book)
+    + remove_book(book: Book)
+    + search_book(title: str): Book
+    + display_inventory(): List[str]
+}
+
+class Order {
+    - order_id: int
+    - books: List[Book]
+    - total_price: float
+    + add_book_to_order(book: Book)
+    + calculate_total_price(): float
+}
+
+class Customer {
+    - customer_id: int
+    - name: str
+    - phone: str
+    - address: str
+    - email: str
+    - orders: List[Order]
+    + place_order(order: Order)
+    + get_order_history(): List[Order]
+}
+
+' Relacije između klasa
+Book <|-- Textbook
+Book <|-- PictureBook
+Book <|-- Novel
+
+Inventory o-- Book
+Order o-- Book
+Customer o-- Order
+
+@enduml

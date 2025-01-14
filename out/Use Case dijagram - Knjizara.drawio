@@ -1,0 +1,102 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+  <diagram name="Copy of Page-1" id="W6udgDyoApCUmgQLyky9">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-0" />
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-1" parent="emDvEIwL3ATKtK2_vGgs-0" />
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-2" value="Kupac" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="emDvEIwL3ATKtK2_vGgs-1" vertex="1">
+          <mxGeometry x="50" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-4" value="Administartor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="emDvEIwL3ATKtK2_vGgs-1" vertex="1">
+          <mxGeometry x="797" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-6" value="&lt;ul&gt;&lt;li&gt;Prikazati listu dostpunih knjiga;&lt;/li&gt;&lt;li&gt;Pretraziti knjigu po naslovu ili autoru;&lt;/li&gt;&lt;li&gt;Kreirati narudzbine i dodati knjige u korpu;&lt;/li&gt;&lt;li&gt;Pregledati istoriju svojih narudzbina;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="emDvEIwL3ATKtK2_vGgs-1" vertex="1">
+          <mxGeometry x="150" y="170" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-8" value="&lt;ul&gt;&lt;li&gt;Dodavati nove knjige u invertar;&lt;/li&gt;&lt;li&gt;Uklanjati knjige iz invertara;&lt;/li&gt;&lt;li&gt;Azurirati podatke o knjigama (naslov, autor, cena, kolicina);&lt;/li&gt;&lt;li&gt;Prikazati i upravljati svim narudzbinama kupaca;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="emDvEIwL3ATKtK2_vGgs-1" vertex="1">
+          <mxGeometry x="430" y="170" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Knjizara&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="emDvEIwL3ATKtK2_vGgs-1" vertex="1">
+          <mxGeometry x="363" y="70" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.063;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" parent="emDvEIwL3ATKtK2_vGgs-1" source="emDvEIwL3ATKtK2_vGgs-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215.88235294117635" y="620" as="sourcePoint" />
+            <mxPoint x="150.32000000000005" y="204.04999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHDuZkaP6JuWilnAq5J5-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="emDvEIwL3ATKtK2_vGgs-1">
+          <mxGeometry x="130" y="140" width="630" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="emDvEIwL3ATKtK2_vGgs-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="emDvEIwL3ATKtK2_vGgs-1" source="emDvEIwL3ATKtK2_vGgs-4" edge="1" target="emDvEIwL3ATKtK2_vGgs-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="140" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Page-1" id="Nr29N55W4WvG45gMOEkF">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-1" value="konobar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-2" value="kuvar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-3" value="Administartor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-4" value="Gost" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-6" value="&lt;ul&gt;&lt;li&gt;Unos narudzbina za stolove&lt;/li&gt;&lt;li&gt;Pregled slobodnih i zauzetih stolova&lt;/li&gt;&lt;li&gt;Izdavanje racuna gostu&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-7" value="&lt;ul&gt;&lt;li&gt;Pregled narudzbina koje treba pripremiti&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-8" value="&lt;ul&gt;&lt;li&gt;Dodavanje, brisanje i izmena jela na jelovniku&lt;/li&gt;&lt;li&gt;Upravljanje zaposlenima:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Dodela smena zaposlenima;&lt;/li&gt;&lt;li&gt;Dodavanje bonusa za uplatu;&lt;/li&gt;&lt;li&gt;Umanjivanje plate zbog prestupa;&lt;/li&gt;&lt;li&gt;Zaposljavanje novih radnika;&lt;/li&gt;&lt;li&gt;Otpustanje radnika;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Upravljanje statusima stolova (slobodan/zauzet);&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-11" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="640" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-9" value="&lt;ul&gt;&lt;li&gt;Narucivanje jela i pica;&lt;/li&gt;&lt;li&gt;Prijem racuna;&lt;/li&gt;&lt;li&gt;Upisivanje u knjigu utisaka;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Restoran&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.063;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DaIxbQlu9F14uKKMyFUv-1" target="DaIxbQlu9F14uKKMyFUv-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215.88235294117635" y="620" as="sourcePoint" />
+            <mxPoint x="190" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.891;exitY=0.205;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DaIxbQlu9F14uKKMyFUv-11" target="DaIxbQlu9F14uKKMyFUv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DaIxbQlu9F14uKKMyFUv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="140" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaIxbQlu9F14uKKMyFUv-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DaIxbQlu9F14uKKMyFUv-4" target="DaIxbQlu9F14uKKMyFUv-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="710" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
