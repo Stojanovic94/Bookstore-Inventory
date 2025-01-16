@@ -3,7 +3,7 @@ from inventory import Inventory
 from order import Order
 from customer import Customer
 
-# Sample usage
+# Osnove
 inventory = Inventory()
 book1 = Textbook("Math Basics", "Author A", 100, 10, "Math", "High School")
 book2 = PictureBook("Animal World", "Author B", 150, 5, "Illustrator A", 5)
